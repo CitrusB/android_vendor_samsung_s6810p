@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/nevisp/proprietary/lib/liblvvefs.so:system/lib/liblvvefs.so \
     vendor/samsung/nevisp/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/nevisp/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/nevisp/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/nevisp/proprietary/lib/librpc.so:system/lib/librpc.so \
     vendor/samsung/nevisp/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/nevisp/proprietary/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
