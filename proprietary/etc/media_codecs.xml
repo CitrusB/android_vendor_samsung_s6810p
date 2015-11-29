@@ -77,9 +77,9 @@ Only the three quirks included above are recognized at this point:
 
 <MediaCodecs>
     <Decoders>
-       <MediaCodec name="OMX.brcm.audio.mp3.decoder" type="audio/mpeg" >
-		     <Quirk name="decoder-ignores-streamcorrupt-error" />
-		</MediaCodec>                                                                           <!--changes to ignore the currupt stream event from component -->
+        <MediaCodec name="OMX.brcm.audio.mp3.decoder" type="audio/mpeg" >
+		     <Quirk name="decoder-ignores-streamcorrupt-error" />                  
+		</MediaCodec>                                                                     <!--changes to ignore the currupt stream event from component -->
         <MediaCodec name="OMX.brcm.audio.amrnb.decoder" type="audio/3gpp" />
         <MediaCodec name="OMX.brcm.audio.amrwb.decoder" type="audio/amr-wb" />
         <MediaCodec name="OMX.brcm.audio.aac.decoder" type="audio/mp4a-latm" >
