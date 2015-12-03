@@ -1,1 +1,1 @@
-# android_vendor_samsung_nevisp
+# android_vendor_samsung_s6810
