@@ -113,4 +113,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/s6810/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
     vendor/samsung/s6810/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
     vendor/samsung/s6810/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
-    vendor/samsung/s6810/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf
+    vendor/samsung/s6810/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
+    vendor/samsung/s6810/proprietary/vendor/gfx.fw:system/vendor/gfx.fw
