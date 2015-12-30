@@ -31,8 +31,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/s6810/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/s6810/proprietary/bin/p2p_supplicant:system/bin/p2p_supplicant \
     vendor/samsung/s6810/proprietary/bin/wlandutservice:system/bin/wlandutservice \
+    vendor/samsung/s6810/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/s6810/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/s6810/proprietary/etc/asound.conf:system/etc/asound.conf \
+    vendor/samsung/s6810/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/samsung/s6810/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/samsung/s6810/proprietary/etc/default_gain.conf:system/etc/default_gain.conf \
     vendor/samsung/s6810/proprietary/etc/DiamondVoice.txt:system/etc/DiamondVoice.txt \
     vendor/samsung/s6810/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
     vendor/samsung/s6810/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -59,11 +63,32 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/s6810/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
     vendor/samsung/s6810/proprietary/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
     vendor/samsung/s6810/proprietary/lib/lib_SoundAlive_V01013h.so:system/lib/lib_SoundAlive_V01013h.so \
-    vendor/samsung/s6810/proprietary/lib/libat.so:system/lib/libat.so \
     vendor/samsung/s6810/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
+    vendor/samsung/s6810/proprietary/lib/libat.so:system/lib/libat.so \
     vendor/samsung/s6810/proprietary/lib/libat_stubs.so:system/lib/libat_stubs.so \
+    vendor/samsung/s6810/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
     vendor/samsung/s6810/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
     vendor/samsung/s6810/proprietary/lib/libbralloc.so:system/lib/libbralloc.so \
+    vendor/samsung/s6810/proprietary/lib/libBrcmOMX_Core.so:system/lib/libBrcmOMX_Core.so \
+    vendor/samsung/s6810/proprietary/lib/libBrcmOMX_Component.so:system/lib/libBrcmOMX_Component.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.audio.aac.decoder.so:system/lib/libOMX.brcm.audio.aac.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.audio.aac.encoder.so:system/lib/libOMX.brcm.audio.aac.encoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.audio.mp3.decoder.so:system/lib/libOMX.brcm.audio.mp3.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.audio.mp3.encoder.so:system/lib/libOMX.brcm.audio.mp3.encoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.video.vpx.decoder.so:system/lib/libOMX.brcm.video.vpx.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.video.h263.decoder.so:system/lib/libOMX.brcm.video.h263.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.video.h263.encoder.so:system/lib/libOMX.brcm.video.h263.encoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.video.h264.decoder.so:system/lib/libOMX.brcm.video.h264.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.video.h264.encoder.so:system/lib/libOMX.brcm.video.h264.encoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.audio.amrnb.decoder.so:system/lib/libOMX.brcm.audio.amrnb.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.audio.amrnb.encoder.so:system/lib/libOMX.brcm.audio.amrnb.encoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.audio.amrwb.decoder.so:system/lib/libOMX.brcm.audio.amrwb.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.audio.amrwb.encoder.so:system/lib/libOMX.brcm.audio.amrwb.encoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.audio.dummy.decoder.so:system/lib/libOMX.brcm.audio.dummy.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.video.dummy.decoder.so:system/lib/libOMX.brcm.video.dummy.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.video.dummy.encoder.so:system/lib/libOMX.brcm.video.dummy.encoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.video.mpeg4.decoder.so:system/lib/libOMX.brcm.video.mpeg4.decoder.so \
+    vendor/samsung/s6810/proprietary/lib/libOMX.brcm.video.mpeg4.encoder.so:system/lib/libOMX.brcm.video.mpeg4.encoder.so \
     vendor/samsung/s6810/proprietary/lib/libbrcmcutils.so:system/lib/libbrcmcutils.so \
     vendor/samsung/s6810/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
     vendor/samsung/s6810/proprietary/lib/libcapi2.so:system/lib/libcapi2.so \
